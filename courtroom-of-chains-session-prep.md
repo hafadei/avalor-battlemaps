@@ -410,7 +410,7 @@ Varro sits up, rubbing his wrists where the chains bit. He looks at you — real
 !bplan add "Courtroom of Chains" !note "Terrain: Infernal sigils (center) = difficult terrain for non-fiends, 1d4 fire/turn. Braziers: 2d6 fire if pushed in (DC 12 Dex). Podium (N): 10ft elevation, DC 12 Athletics. Iron cage (W): half cover, DC 15 Thieves' Tools to lock. Contract on prosecution table: AC 15, HP 20, immune fire/poison, vulnerable radiant."
 ```
 ```
-!bplan map "Courtroom of Chains" set -mapsize 20x20 -options dc60 -bg https://raw.githubusercontent.com/hafadei/avalor-battlemaps/master/battlemaps/courtroom_of_chains_v1.png
+!bplan map "Courtroom of Chains" set -mapsize 20x20 -options dc60 -bg https://raw.githubusercontent.com/hafadei/avalor-battlemaps/master/battlemaps/coc_v1.png
 ```
 ```
 !bplan begin "Courtroom of Chains"

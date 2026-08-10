@@ -331,7 +331,7 @@ Varro sits up, rubbing his wrists where the chains bit. He looks at you — real
 - **Magic Resistance** makes him hard to control with spells.
 - **When bloodied:** "You disrupt my court... you chain-breakers... you will find that justice has teeth."
 
-### Prosecutor Vex'ahlia (Barbed Devil) — Artillery + Grappler
+### Prosecutor Vexahlia (Barbed Devil) — Artillery + Grappler
 - Opens at range with **2× Hurl Flame** (150ft, +5, 5d6=17 fire each = 34/round). Targets spellcasters — especially the Bard (breaks concentration) and Warlock.
 - If melee PCs approach, switches to Claws+Tail (10+14=24, grapples with claws DC 13).
 - **Barbed Hide** deals 1d10 piercing to anyone grappling her — punishes the Barbarian/Monk if they try to pin her.
@@ -392,7 +392,7 @@ Varro sits up, rubbing his wrists where the chains bit. He looks at you — real
 !bplan add "Courtroom of Chains" !i madd "Chain Devil" -name "Judge Malphas" -n 1 -note "Location: J2 | Size: M"
 ```
 ```
-!bplan add "Courtroom of Chains" !i madd "Barbed Devil" -name "Prosecutor Vex'ahlia" -n 1 -note "Location: O6 | Size: M"
+!bplan add "Courtroom of Chains" !i madd "Barbed Devil" -name "Prosecutor Vexahlia" -n 1 -note "Location: O6 | Size: M"
 ```
 ```
 !bplan add "Courtroom of Chains" !i madd "Bearded Devil" -name "Bailiff" -n 2 -note "Location: G16, N16 | Size: M"
@@ -410,7 +410,7 @@ Varro sits up, rubbing his wrists where the chains bit. He looks at you — real
 !bplan add "Courtroom of Chains" !note "Terrain: Infernal sigils (center) = difficult terrain for non-fiends, 1d4 fire/turn. Braziers: 2d6 fire if pushed in (DC 12 Dex). Podium (N): 10ft elevation, DC 12 Athletics. Iron cage (W): half cover, DC 15 Thieves' Tools to lock. Contract on prosecution table: AC 15, HP 20, immune fire/poison, vulnerable radiant."
 ```
 ```
-!bplan map "Courtroom of Chains" set -mapsize 20x20 -options dc60 -bg https://raw.githubusercontent.com/hafadei/avalor-battlemaps/master/battlemaps/coc_v1.png
+!bplan map "Courtroom of Chains" set -mapsize 20x20 -options dc60 -bg https://raw.githubusercontent.com/hafadei/avalor-battlemaps/master/battlemaps/c.png
 ```
 ```
 !bplan begin "Courtroom of Chains"
@@ -418,7 +418,7 @@ Varro sits up, rubbing his wrists where the chains bit. He looks at you — real
 
 ### Manual Token Fallback (if auto-placement fails)
 ```
-!map -t Judge Malphas|J2|M|r -t Prosecutor Vex'ahlia|O6|M|o -t Bailiff 1|G16|M|bk -t Bailiff 2|N16|M|bk -t Gallery Guard 1|Q10|S|y -t Gallery Guard 2|D10|S|y -t Court Clerk|K3|T|p
+!map -t Judge Malphas|J2|M|r -t Prosecutor Vexahlia|O6|M|o -t Bailiff 1|G16|M|bk -t Bailiff 2|N16|M|bk -t Gallery Guard 1|Q10|S|y -t Gallery Guard 2|D10|S|y -t Court Clerk|K3|T|p
 ```
 
 ### If monster lookups fail
